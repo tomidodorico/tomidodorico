@@ -1,38 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio</title>
   <link rel="stylesheet" href="index.css">
-  <title>My profile</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
+
 <body>
 
-  <!--BARRA DE OPCIONES -->
-  <nav class="navbar">
-    <ul id="navlist">
-        <li>ABOUT ME</li>
-        <li>EXPERIENCE|PROJECTS</li>
-        <li>EDUCATION</li>
-        <li>TECHNICAL SKILLS</li>
-    </ul>
-</nav>
 
-<!--BARRA DIVISORA ENTRE BARRA DE MENU Y INICIO -->
-<aside id="barra-divisora"></aside>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <h2>T<span>D</span></h2>
+        </div>
+        <ul class="menu">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="info-content">
+        <h1>I'm <span>Tomás</span> Dodorico</h1>
+        <p>I am 23 years old, I am from Argentina and I am a student and passionate about IT. Since 2017 I have been
+          working professionally in the financial sector but I have been studying programming for 2 years and I am
+          looking for my first work experiencie in IT. I have taken courses on Web Development and Relational Databases.
+          I am also in the career of Systems Analyst (Instituto ORT Argentina). In my free time I like to play padel,
+          watch soccer, get together with my friends and my girlfriend.</p>
+        <a download href="#">
+          <button class="download-cv">Download CV</button>
+        </a>
+      </div>
+      <img src="./img/fotofachera.jpeg" alt="tomi dodorico picture">
+    </main>
+  </div>
 
-<container class="inicio">
-<img class="imagenTomi" src="./img/fotofachera.jpeg">
-<h1 id="title">ABOUT TOMAS DODORICO:</h1>
-<p id="parrafo">I am 23 years old, I am from Argentina and I am a student and passionate about IT. Since 2017 I have been working professionally in the financial sector but I have been studying programming for 2 years and I am looking for my first work experiencie in IT. I have taken courses on Web Development and Relational Databases. I am also in the career of Systems Analyst (Instituto ORT Argentina). In my free time I like to play padel, watch soccer, get together with my friends and my girlfriend.</p>
-</container>
+  <div class="about">
+    <img src="./img/aboutme.jpeg" alt="Tomi Dodorico pic with my girlfriend in Bariloche">
+    <div class="about-info">
+      <h2>About me</h2>
+      <div class="divider"></div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit doloremque officiis dolorem, tenetur nam
+        necessitatibus facilis, cumque eos, obcaecati voluptates pariatur explicabo ipsum! At doloribus sapiente sit,
+        non beatae repellat.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi ex assumenda nostrum repellat ipsam consequatur
+        placeat commodi repellendus, ab, vel laudantium nesciunt voluptates magnam, dicta sint iste recusandae provident
+        nemo.</p>
+      <button class="download-cv">Read more</button>
+    </div>
+  </div>
 
-<!--ABOUT MY GOALS-->
+  <div class="portfolio">
+    <div class="portfolio-headings">
+      <h2>My Portfolio</h2>
+      <div class="divider"></div>
+    </div>
 
-<container class="goals">
-<h1 id="goals">MY GOALS</h1>
-<a id="parrafo-goals">In this moment, my goals are pain a first experiencie of this sector. I need learn some new every day, i want this.</a>
-</container>
+    <div class="container">
+      <div class="card">
+        <div class="card__img">
+        </div>
+        <div class="card__title">
+          <h2>Project Description</h2>
+        </div>
+        <div class="card__projects-links">
+          <a href="https://github.com/tomidodorico" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-globe-americas"></i>
+          </a>
+          <a href="">
+            <i class="fas fa-code"></i>
+          </a>
+        </div>
+        <div class="project-details-content">
+          <button class="project-details download-cv">
+            <a href="#">Project details</a>
+
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
 </body>
+
 </html>

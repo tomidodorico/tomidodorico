@@ -1,5 +1,9 @@
 ### Hi there 👋
 
+My name is Tomas and my lastname is Dodorico. I'm 23. I'm from Argentina.
+
+In this repository I wanted create my portfolio. I believe that a personal website is necesary for look job in this sector. I love IT and I love learn some new every day.
+
 <!--
 **tomidodorico/tomidodorico** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

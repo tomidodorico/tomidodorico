@@ -1,60 +1,81 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Navigation bar</title>
-  </head>
-  <body>
-    <header>
-      <div id="brand"><a href="/">DODORICO TOMÁS</a></div>
-      <nav>
-        <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#about-me">About me</a></li>
-            <li><a href="#social-networks">Social networks</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-        <ul class="mobile-menu">
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#main">About me</a></li>
-            <li><a href="#portfolio">Social networks</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-    </header>
 
-    <main id="main" class="main">
-        <div class="info-content">
-          <h1>I'm <span> Tomás </span> Dodorico</h1>
-          <p>Developer in constant learning, with knowledge in HTML, CSS, JavaScript, React, MySQL, Java, Node.js.</p>
-          <a download href="#">
-            <button class="download-cv">Download CV</button>
-          </a>
-        </div>
-        <img id="pct-tomi" src="./img/fotofachera.jpeg" alt="tomi dodorico picture">
-      </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <title>Dodorico Tomás - Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <div id="brand"><a href="/">DODORICO TOMÁS</a></div>
+    <nav>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="#social-networks">Social networks</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      <ul class="mobile-menu">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#main">About me</a></li>
+        <li><a href="#portfolio">Social networks</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
     </div>
-  
-    <div class="about" id="about-me">
-      <img src="./img/aboutme.jpeg" alt="Tomi Dodorico pic with my girlfriend in Bariloche">
-      <div class="about-info">
-        <h2>About me</h2>
-        <div class="divider"></div>
-        <p>I am 23 years old, I am from Argentina and I am a student and passionate about IT. 
-          My goals are to learn something new every day and to be able to develop myself to the maximum personally and professionally. 
-          I love traveling and discovering new places. In my free time I like to play paddle, watch soccer, get together with my friends and my girlfriend. </p>
-        <a><button class="download-cv" style="text-decoration: none;">Contact me</button></a>
-      </div>
+  </header>
+
+  <main id="main" class="main">
+    <div class="info-content">
+      <h1>I'm <span> Tomás </span> Dodorico</h1>
+      <p>Developer in constant learning, with knowledge in HTML, CSS, JavaScript, React, MySQL, Java, Node.js.</p>
+      <a download href="#">
+        <button class="download-cv">Download CV</button>
+      </a>
     </div>
-  
-   
+    <img id="pct-tomi" src="./img/fotofachera.jpeg" alt="tomi dodorico picture">
+  </main>
+  </div>
+
+  <div class="about" id="about-me">
+    <img src="./img/aboutme.jpeg" alt="Tomi Dodorico pic with my girlfriend in Bariloche">
+    <div class="about-info">
+      <h2>About me</h2>
+      <div class="divider"></div>
+      <p>I am 23 years old, I am from Argentina and I am a student and passionate about IT.
+        My goals are to learn something new every day and to be able to develop myself to the maximum personally and
+        professionally.
+        I love traveling and discovering new places. In my free time I like to play paddle, watch soccer, get together
+        with my friends and my girlfriend. </p>
+      <a href="./contact.html"><button class="download-cv" style="text-decoration: none;">Contact me</button></a>
+    </div>
+  </div>
+
+  <section class="social-networks">
+    <h1 style="font-size: 2em;">My <span> social </span> networks</h1>
+    </div>
+    <div class="twitter">
+      <a class="twitter-timeline" data-width="300" data-height="500" data-theme="dark"
+        href="https://twitter.com/TDodoIT?ref_src=twsrc%5Etfw">Tweets by TDodoIT</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    </div>
+
+    <!--
+    <div class="linkedin">
+      <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="tomás-dodorico-691b0a161" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://ar.linkedin.com/in/tom%C3%A1s-dodorico-691b0a161?trk=profile-badge" target="_blank" rel="noopener noreferrer">Tomás Dodorico </a></div>
+              <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script></section>
+ 
+   -->
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>

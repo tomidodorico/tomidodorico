@@ -26,13 +26,7 @@ body {
   padding: 2em;
 }
 
-.brand {
-  margin-top: -7px;
-}
 
-.brand span {
-  color: 09c372;
-}
 
 .menu {
   display: flex;
@@ -147,41 +141,6 @@ h1 span {
   margin-bottom: 1em;
 }
 
-.social-networks {
-  padding: 3em;
-  color: #fff;
-  font-size: 1em;
-  background-color: #353836;
-  padding-bottom: 5em;
-}
-
-.social-networks ul {
-  display: flex;
-  justify-content: space-around;
-  padding: 1em;
-}
-
-.social-networks li {
-  list-style: none;
-
-}
-
-.social-networks a {
-  border: 5px solid #09c372;
-  padding: 2em;
-  border-radius: 8px;
-  background-color: #09c372;
-  text-decoration: none;
-  font-style: bold;
-  color: #191c32;
-  font-family: 'Monserrat', sans-serif;
-}
-
-.social-networks a:hover {
-  background-color: #fff;
-  border: 5px solid #fff;
-  transition: ease-in .4s;
-}
 
 body {
   background-color: #353836;
@@ -234,27 +193,6 @@ ul li:hover {
   transition: 0.3s;
 }
 
-#login,
-#signup {
-  border-radius: 5px;
-  padding: 5px 8px;
-}
-
-#login {
-  border: 1px solid #498afb;
-}
-
-#signup {
-  border: 1px solid #ff3860;
-}
-
-#signup a {
-  color: #ff3860;
-}
-
-#login a {
-  color: #498afb;
-}
 
 #hamburger-icon {
   margin: auto 0;
@@ -286,7 +224,7 @@ ul li:hover {
 
 .open .mobile-menu {
   display: flex;
-  flex-direction: columccccccccccccccccccccccccccccn;
+  flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
@@ -304,17 +242,36 @@ ul li:hover {
   margin-bottom: 10px;
 }
 
+
+.social-networks {
+margin: 25px;
+padding: 25px;
+}
+
+.twitter{
+  margin-top: 15px;
+}
+
 @media only screen and (max-width: 600px) {
   header nav {
     display: none;
   }
 
 
+
+  .open .mobile-menu{
+    display: -webkit-box;
+    justify-content: center;
+    
+  }
+
   .mobile-menu {
-    width: 1200px;
-    padding: 30px;
+    padding: 0px;
     background-color: #1d1f1d;
-    height: 100px;
+    height: 49px;
+    font-size: 0.8em;
+    justify-content: center;
+
   }
 
   .main img {
@@ -328,7 +285,7 @@ ul li:hover {
 
   .main {
     display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('./img/fotofachera.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./img/fotofachera.jpeg');
     height: 100%;
     width: 100vw;
     background-position: center;
@@ -352,15 +309,30 @@ ul li:hover {
   }
 
   .about{
-    float: left;
+    background: linear-gradient(rgba(202, 200, 200, 0.8), rgba(245, 235, 235, 0.8)), url('./img/aboutme.jpeg');
+
+    color: #191c32;
+    
+  }
+
+  .about p{
+    font-weight: bold;
   }
 
   .about-info {
     padding: 3em;
+    grid-column: none;
+  }
+
+  .social-networks h1 {
+    padding: 25px;
   }
 
 
-
+.title-snet{
+  font-size: 2em;
+  color: #09c372;
+}
 
 
 }
